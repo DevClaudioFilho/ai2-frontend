@@ -1,0 +1,84 @@
+{
+  "systems": [
+    {
+      "id": 1,
+      "title": "D&D",
+      "short_description": "O popular",
+      "description": "Dungeons & Dragons (comumente abreviado como D&D ou DnD) é um RPG de fantasia criado e projetado por Gary Gygax e Dave Arneson. O jogo foi publicado pela primeira vez em 1974 pela Tactical Studies Rules, Inc. É publicado pela Wizards of the Coast, agora uma subsidiária da Hasbro, desde 1997.",
+      "banner_image": "/assets/images/d&d_banner.webp",
+      "link_url": "system/1",
+      "how_play_text": "Dungeons & Dragons (D&D) é um jogo de interpretação de papéis onde os jogadores criam personagens fictícios com raças, classes e habilidades únicas. Guiados por um Mestre de Jogo (DM), os jogadores embarcam em aventuras em um mundo de fantasia, tomando decisões por meio de rolagens de dados, especialmente o d20. O jogo combina narrativa colaborativa, estratégia e interpretação de papéis, incentivando os jogadores a explorarem cenários, enfrentarem desafios, e evoluírem seus personagens ao ganharem pontos de experiência. D&D utiliza uma mistura de elementos como combate tático, resolução de enigmas e interações sociais, proporcionando uma experiência única a cada sessão e celebrando a criatividade dos participantes.",
+      "video_url": "https://www.youtube.com/embed/wldFjr-Fhks",
+      "books": [
+        {
+          "id":1,
+          "title": "Dungeons & Dragons - Starter Set",
+          "short_description": "The newest edition of Dungeons & Dragons",
+          "description": " The Dungeons & Dragons Starter Set is the perfect introductory campaign experience for 4 to 6 players, character levels 1 through 5. Everything players and the Dungeon Master need to kick off their adventure is included, all in one box! ",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/NR/f9/2d/0c/798201/1540-1/tsp20161007192530/Dungeons-Dragons-Starter-Set.jpg",
+          "link_url": "https://www.fnac.pt/Dungeons-et-Dragons-Starter-Set-Jogos-de-Sociedade-Role-Play/a804711"
+        },
+        {
+          "id":2,
+          "title": "Dungeons & Dragons",
+          "short_description": "The newest edition of Dungeons & Dragons",
+          "description": "The Dungeons & Dragons Starter Set is the perfect introductory campaign experience for 4 to 6 players, character levels 1 through 5. Everything players and the Dungeon Master need to kick off their adventure is included, all in one box! ",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/NR/f9/2d/0c/798201/1540-1/tsp20161007192530/Dungeons-Dragons-Starter-Set.jpg",
+          "link_url": "https://www.fnac.pt/Dungeons-et-Dragons-Starter-Set-Jogos-de-Sociedade-Role-Play/a804711"
+        },
+        {
+          "id":3,
+          "title": "Dungeons & Dragons - Starter Set",
+          "short_description": "The newest edition of Dungeons & Dragons",
+          "description": " The Dungeons & Dragons Starter Set is the perfect introductory campaign experience for 4 to 6 players, character levels 1 through 5. Everything players and the Dungeon Master need to kick off their adventure is included, all in one box! ",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/NR/f9/2d/0c/798201/1540-1/tsp20161007192530/Dungeons-Dragons-Starter-Set.jpg",
+          "link_url": "https://www.fnac.pt/Dungeons-et-Dragons-Starter-Set-Jogos-de-Sociedade-Role-Play/a804711"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Grups",
+      "short_description": "Pau para toda obra",
+      "description": "GURPS é acrônimo de Generic and Universal Role Playing System (Sistema Genérico e Universal de Interpretação de Papéis) e, como informa o nome, é um sistema de Role Playing Game genérico e universal, o que significa que ele pode ser tão complexo quanto se queira e pode ser usado para jogar em qualquer cenário histórico ou ficcional. Foi criado por Steve Jackson e publicado em 1986 por sua editora, a Steve Jackson Games, sendo traduzido para a língua portuguesa pela Devir Livraria em 1991.",
+      "banner_image": "/assets/images/gurps_banner.jpg",
+      "link_url": "system/2",
+      "how_play_text": "Os jogadores começam criando personagens atribuindo pontos a atributos, vantagens, desvantagens e habilidades. Um Mestre guia a narrativa, estabelecendo objetivos e criando desafios. A resolução de ações envolve rolar 3d6, e o combate é detalhado, incluindo iniciativa, rolagens de ataque e defesa. À medida que a história se desenrola, os personagens evoluem com pontos ganhos, permitindo melhorias. GURPS enfatiza a interpretação de personagens e a adaptabilidade, proporcionando uma experiência única em cada campanha.",
+      "video_url": "https://www.youtube.com/embed/HHdEpNfOd9U",
+      "books": [
+        {
+          "title": "GURPS For Dummies",
+          "short_description": "6 million people play GURPS",
+          "description": "An estimated 6 million people play GURPS Generic Universal Role Playing System, and its creator, Steven Jackson Games, has sold more than 1. 5 million GURPS Basic sets. Written in partnership with Steven Jackson Games, this insiders guide shows newcomers to GURPS, Fourth Edition how to build a dynamic character and succeed in game play.",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/MC/f5/c9/5b/6015477/1540-1/tsp20220215013158/GURPS-For-Dummies-Paperback-2006.jpg#4d79c349-099b-433c-abb1-834861ead529",
+          "link_url": "https://www.fnac.pt/mp6015477/GURPS-For-Dummies-Paperback-2006#omnsearchpos=1"
+        },
+        {
+          "title": "GURPS For Dummies",
+          "short_description": "6 million people play GURPS",
+          "description": "An estimated 6 million people play GURPS Generic Universal Role Playing System, and its creator, Steven Jackson Games, has sold more than 1. 5 million GURPS Basic sets. Written in partnership with Steven Jackson Games, this insiders guide shows newcomers to GURPS, Fourth Edition how to build a dynamic character and succeed in game play.",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/MC/f5/c9/5b/6015477/1540-1/tsp20220215013158/GURPS-For-Dummies-Paperback-2006.jpg#4d79c349-099b-433c-abb1-834861ead529",
+          "link_url": "https://www.fnac.pt/mp6015477/GURPS-For-Dummies-Paperback-2006#omnsearchpos=1"
+        },
+        {
+          "title": "GURPS For Dummies",
+          "short_description": "6 million people play GURPS",
+          "description": "An estimated 6 million people play GURPS Generic Universal Role Playing System, and its creator, Steven Jackson Games, has sold more than 1. 5 million GURPS Basic sets. Written in partnership with Steven Jackson Games, this insiders guide shows newcomers to GURPS, Fourth Edition how to build a dynamic character and succeed in game play.",
+          "banner_image": "https://static.fnac-static.com/multimedia/Images/PT/MC/f5/c9/5b/6015477/1540-1/tsp20220215013158/GURPS-For-Dummies-Paperback-2006.jpg#4d79c349-099b-433c-abb1-834861ead529",
+          "link_url": "https://www.fnac.pt/mp6015477/GURPS-For-Dummies-Paperback-2006#omnsearchpos=1"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Guaxinins e Gambiarras",
+      "short_description": "Para jogos rapido e divertidos",
+      "description": "Guaxinins e Gambiarras é um sistema de Role-Playing Game criado por Marcelo Guaxinim e aprimorado pelos padrinhos do RPGuaxa que utiliza de dois a três dados de seis lados. Foi inspirado no sistema Lasers & Feelings de John Harper, tendo sido utilizado nas primeiras aventuras do RPGuaxa.",
+      "banner_image": "/assets/images/guaxa.webp",
+      "link_url": "system/3",
+      "how_play_text": "Junte uma ou mais pessoas. Um de vocês será o Guaxa (mas você pode chamar de narradora, narrador, mestra, mestre, oradora, orador, tia, tio...), a pessoa que vai contar a história. As outras pessoas. Os outros amigos, agora chamadas jogadores, criam seus personagens e vão tomando suas decisões nesse mundo. \n O Guaxa diz: “Diante de vocês está uma porta de madeira com uma maçaneta em forma de garra de corvo, ela está fechada e parece mais antiga que as paredes que a cercam, o que vocês fazem?” \n E os jogadores então dizem o que vão fazer: tentar arrombar, ver se a porta está aberta, olhar pela fechadura, explodi-la, procurar outra porta, buscar ligação com outras portas claramente sem conexão alguma com esta essa porta, pois elas estão em outros prédios que nem ficam no mesmo planeta etc… \n Para algumas dessas ações, o Guaxa poderá pedir que o jogador jogue um ou mais dados, para determinar um acerto ou uma eventual falha, mas falamos disso depois.",
+      "video_url": "https://www.youtube.com/embed/KLwUa0Nl1Fw",
+      "books": []
+    }
+  ]
+}
