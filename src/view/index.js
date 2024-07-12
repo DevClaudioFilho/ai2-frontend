@@ -19,7 +19,7 @@ function Home() {
       setSystems(res.data)
     })
     .catch((err) => {
-      alert(`Error: ${err}` )
+      console.error(`Error: ${err}` )
     });
   }, [])
 
@@ -49,11 +49,14 @@ function Home() {
             className="d-flex justify-content-around flex-wrap gap-3"
             id="listCardsComponents"
           >
-            {systems.map((system) => (
-              <li key={system.id}>
-                <Card image={system.banner_image} title={system.title} text={system.description} link={`/system/${system.id}`}/>
-              </li>
-            ))}
+            {systems.length >= 1 ?
+              systems.map((system) => (
+                <li key={system.id}>
+                  <Card image={system.banner_image} title={system.title} text={system.description} link={`/system/${system.id}`}/>
+                </li>
+              )):
+              (<p className='text-white m-4'>Nao tem sistemas cadastrado</p>)
+            }
           </ul>
         </div>
       </section>
@@ -88,19 +91,19 @@ function Home() {
           </h1>
           <div className="d-flex flex-column flex-md-row " style={{gap:'15px'}}>
             <form className='w-md-50 w-100 d-flex flex-column justify-content-center' style={{gap:'10px'}}>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="exampleInputName" className='text-warning'>Nome:</label>
-                <input type="name" class="form-control bg-dark border-white text-white input-dark" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name"/>
+                <input type="name" className="form-control bg-dark border-white text-white input-dark" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name" required/>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="exampleInputEmail1" className='text-warning'>Email address:</label>
-                <input type="email" class="form-control bg-dark border-white text-white input-dark" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                <input type="email" className="form-control bg-dark border-white text-white input-dark" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required/>
               </div>
-              <div class="form-group">
+              <div className="form-group">
                 <label for="exampleFormControlTextarea1" className='text-warning' >Mensagem:</label>
-                <textarea class="form-control bg-dark border-white text-white input-dark" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea className="form-control bg-dark border-white text-white input-dark" id="exampleFormControlTextarea1" rows="3" required></textarea>
               </div>
-              <button type="submit" class="btn btn-outline-warning w-100 mt-2">Submit</button>
+              <button type="submit" className="btn btn-outline-warning w-100 mt-2">Submit</button>
             </form>
             
             <img

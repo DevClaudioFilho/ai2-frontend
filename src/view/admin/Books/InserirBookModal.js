@@ -39,7 +39,7 @@ function InserirFilmes() {
       setSystems(res.data)
     })
     .catch((err) => {
-      alert(`Error: ${err}` )
+      console.error(`Error: ${err}` )
     });
   }, [])
 
@@ -103,7 +103,7 @@ function InserirFilmes() {
         <div className="form-group">
           <label htmlFor="insertFilmesTitulo">ID do Sistema</label>
           <select 
-            class="form-select" 
+            className="form-select" 
             aria-label="Default select example"
             onChange={(e) => setBookSystemId(e.target.value)}
           >

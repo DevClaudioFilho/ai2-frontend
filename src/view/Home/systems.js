@@ -16,7 +16,7 @@ function System() {
       setSystem(res.data)
     })
     .catch((err) => {
-      alert(`Error: ${err}` )
+      console.error(`Error: ${err}` )
     })
 
     api.get(`/book/filter/${systemId}`)
@@ -25,16 +25,16 @@ function System() {
       setBooks(res.data)
     })
     .catch((err) => {
-      alert(`Error: ${err}` )
+      console.error(`Error: ${err}` )
     })
   }, [systemId])
 
   return (
-    <>
-      {system && 
+    <main style={{minHeight:'75vh'}}>
+      {system ? 
         (
           <>
-            <img src="" alt="" className='w-100'                 
+            <img src={system.banner_image} alt="" className='w-100'                 
               style={{
                 height: '70vh',
                 objectFit: 'cover',
@@ -79,9 +79,10 @@ function System() {
               </div>
             </section>
           </>
-        )
+        ):
+        <h1 className="title text-center text-warning mt-4"> 🤨Opa...como voce chegou aqui</h1>
       }
-    </>
+    </main>
   )
 }
 
