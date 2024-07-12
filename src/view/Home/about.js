@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function About(){
   return (
     <>
-      <img src="" alt="" className='w-100'                 
+      <img src="https://wallup.net/wp-content/uploads/2018/10/03/963360-diablo-dark-fantasy-warrior-rpg-action-fighting-dungeon.jpg" alt="" className='w-100'                 
         style={{
           height: '70vh',
           objectFit: 'cover',

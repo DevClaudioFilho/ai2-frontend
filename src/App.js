@@ -27,8 +27,10 @@ import Blog from './view/blog/index.js';
 import Login from './view/Login/index.js';
 import Post from './view/blog/post.js';
 import PostAdmin from './view/admin/Post/PostAdmin.js';
+import Perfil from './view/Home/perfil.js';
 
 function App() {
+
   return (
     <>
         <Router>
@@ -44,12 +46,13 @@ function App() {
                 <Route path='contact' element={<Contact/>} />
                 <Route path='blog' element={<Blog/>} />
                 <Route path='post/:postId'element={<Post/>} />
+                <Route path='perfil'element={getCurrentUser()?<Perfil/>:<Navigate to="/login" replace />} />
               </Route>  
 
               <Route path="admin" element={<AdminLayout />}>
                 <Route path='' element={getCurrentUser()?<SystemAdm/>:<Navigate to="/login" replace /> } /> 
                 <Route path='system' element={getCurrentUser()?<SystemAdm/>:<Navigate to="/login" replace />} />
-                <Route path='book' element={getCurrentUser()?<Book/>:<Navigate to="/login" replace /> } />
+                <Route path='book' element={getCurrentUser() ?<Book/>:<Navigate to="/login" replace /> } />
                 <Route path='banner' element={getCurrentUser()?<Banner/>:<Navigate to="/login" replace />} />
                 <Route path='post' element={getCurrentUser()?<PostAdmin/>:<Navigate to="/login" replace />} />
                 <Route path='*' element={getCurrentUser()?<NotFound />:<Navigate to="/login" replace />} />

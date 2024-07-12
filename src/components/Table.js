@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import DeleteAlert from './DeleteAlert';
 import api from "../../../frontend/src/utils/api";
 
-function Table({endpoint,idSufModal,onClickEdit,onClickRemove,idRemoveModal}) { 
+function Table({endpoint,idSufModal,onClickEdit,onClickRemove,idRemoveModal,excludeKeys=[]}) { 
   const [data, setData] = useState([])
   const [keys, setKeys] = useState([])
   const [itemToDelete, setItemToDelete] = useState([])
@@ -10,7 +10,13 @@ function Table({endpoint,idSufModal,onClickEdit,onClickRemove,idRemoveModal}) {
 
   useEffect(() =>{
     api.get(endpoint).then(response => {
-      let res =response.data
+      let res =response.data.map(item=>{
+        for(var x=0;x<excludeKeys.length;x++){
+          delete item[excludeKeys[x]];
+        }
+        return item;
+      })
+
       res.sort((a,b)=> a.id-b.id)
       setKeys(Object.keys(res[0]))
       setData(res)

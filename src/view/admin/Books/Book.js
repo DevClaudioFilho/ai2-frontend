@@ -31,6 +31,7 @@ function Book() {
 
         <Table 
           endpoint='/book/list' 
+          excludeKeys={['system']}
           idSufModal={idEditModal} 
           onClickEdit={(id)=>setIdToEdit(id)}
           idRemoveModal={idRemoveModal}

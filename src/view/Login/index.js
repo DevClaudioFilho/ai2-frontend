@@ -61,12 +61,12 @@ function Login() {
           <label htmlFor="floatingPassword">Senha</label>
         </div>
 
-        <div class="checkbox mb-3">
+        <div className="checkbox mb-3">
           <label>
             <input type="checkbox" value="remember-me"/> Remember me
           </label>
         </div>
-        <button class="w-100 btn btn-lg btn-warning" type="submit">Entrar</button>
+        <button className="w-100 btn btn-lg btn-warning" type="submit">Entrar</button>
       </form>
     </main>
   )
