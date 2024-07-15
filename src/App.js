@@ -28,6 +28,7 @@ import Login from './view/Login/index.js';
 import Post from './view/blog/post.js';
 import PostAdmin from './view/admin/Post/PostAdmin.js';
 import Perfil from './view/Home/perfil.js';
+import NewUser from './view/Login/newUser.js';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
             <Routes>
             <Route path='*' element={<NotFound />} />
               <Route path='/login' exact element={<Login />} />
+              <Route path='/login/new' exact element={<NewUser />} />
 
               <Route path="/" element={< Layout />}>
                 <Route path='*' element={<NotFound />} />
