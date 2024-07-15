@@ -67,7 +67,7 @@ function Login() {
           </label>
         </div>
         <button className="w-100 btn btn-lg btn-warning" type="submit">Entrar</button>
-        <Link to="login/new" className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>Criar usuario</Link>
+        <Link to="/login/new" className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'>Criar usuario</Link>
       </form>
     </main>
   )
