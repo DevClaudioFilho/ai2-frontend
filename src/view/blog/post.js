@@ -33,7 +33,6 @@ function Post() {
     .catch((err) => {
       console.error(`Error: ${err}` )
     })
-
   }, [postId])
 
   useEffect(() => {
@@ -47,7 +46,7 @@ function Post() {
 
   }, [postId])
   
-  async function handlerSubmitValues(){
+  async function handlerSubmitValues(event){
     try {
       const data ={
       	comment: newComment,
@@ -59,6 +58,7 @@ function Post() {
       console.log(error)
       alert("🤯 Seu comentario nao foi cadastrado !!!")
     }
+    event.preventDefault()
   }
 
   return (
