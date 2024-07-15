@@ -39,16 +39,19 @@ function NewUser() {
       <form  className="form-signin p-4 bg-white w-100 h-50 rounded" style={{maxWidth:'400px'}} onSubmit={HandleCreateUser}>
         <img className="mb-4" src="/assets/logo.png" alt="" width="200" height="57" style={{marginLeft:'auto !important',marginRight:'auto !important'}}/>
         <h1 className="h3 mb-4 fw-normal">Crie seu user</h1>
-
         <div className="form-floating mb-4">
           <input 
-            type="text" 
+            type="name" 
             className="form-control" 
             id="floatingInput" 
-            placeholder="John Doo"
+            placeholder="Frodo"
             value={name}
             onChange={(value) => setName(value.target.value)}
           />
+          <label htmlFor="floatingInput">Name</label>
+        </div>
+
+        <div className="form-floating mb-4">
           <input 
             type="email" 
             className="form-control" 
