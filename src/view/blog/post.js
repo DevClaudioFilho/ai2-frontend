@@ -47,6 +47,7 @@ function Post() {
   }, [postId])
   
   async function handlerSubmitValues(event){
+    event.preventDefault()
     try {
       const data ={
       	comment: newComment,
@@ -58,7 +59,6 @@ function Post() {
       console.log(error)
       alert("🤯 Seu comentario nao foi cadastrado !!!")
     }
-    event.preventDefault()
   }
 
   return (
