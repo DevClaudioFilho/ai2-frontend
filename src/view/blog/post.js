@@ -47,7 +47,7 @@ function Post() {
   }, [postId])
   
   async function handlerSubmitValues(event){
-    event.preventDefault()
+    //event.preventDefault()
     try {
       const data ={
       	comment: newComment,
