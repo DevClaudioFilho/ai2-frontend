@@ -13,6 +13,7 @@ function login(email,password){
 
 function logout(){
   localStorage.removeItem('rpgeek_jwt_token')
+  window.location.reload();
 }
 
 function getCurrentUser(){
